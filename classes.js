@@ -109,8 +109,17 @@ console.log("GET FAV MOVIES:", myUser.favoriteMovies);
 console.log("");
 console.log("=====================================================");
 
+myUser.name="Serena"
+console.log("GET UPDATED NAME:", myUser.name);
 console.log("");
+
+myUser.age = 4;
+console.log("GET UPDATED AGE:", myUser.age);
 console.log("");
+
+myUser.favoriteMovies = "Turning Red";
+console.log("GET UPDATED FAV MOVIE:", myUser.favoriteMovies);
 console.log("");
-console.log("");
-console.log("");
+
+console.log(myUser.lastModifiedEvents)
+console.log("MY USER:", myUser);
